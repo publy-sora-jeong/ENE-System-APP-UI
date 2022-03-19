@@ -10,6 +10,8 @@
 <h2>폴더구조</h2>
 
 - html을 제외한 font, image, css, javascript(plugin)은 static폴더에 있습니다. 
+- figma에서 UI화면 확인가능 
+- [ENE System UI Figma link ][https://www.figma.com/file/i6GRJw02jD4l2RGhhx6w0n/ENS-Mobile?node-id=0%3A1 ]  
 
 <pre>
 	ene-system 
