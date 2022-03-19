@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keyword" content="ENE System">
+        <meta name="description" content="ENE System">
+        <meta name="author" content="ENE System">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" />
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="shortcut icon" type="image/jpg" href="static/images/fav.png" />
+        <title>ENE system</title>
+    </head>
+
+    <body>
+
+        <div id="main">
+            <header class="main-header">
+                <h1 class="logo"><img src="static/images/logo_ens.svg" alt="ens"></h1>
+
+                <a href="#" class="btn-user"><span class="blind">User</span></a>
+                <button type="button" class="btn-menu">
+                    <i class="blind">전체메뉴</i>
+                </button>
+                <div class="menu-container">
+                    <div class="menu-header">
+                        <!-- 
+                        @@ 로그인 전
+                        <div class="menu-header_login">
+                            <p>로그인하여  <br>더 많은 정보를 확인하세요.</p>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그인</a>
+                                <a href="#" class="btn-secondary btn-join">회원가입</a>
+                            </div>
+                        </div> 
+                         -->
+                        <!--
+                            @@ 로그인 후
+                        -->
+
+                        <div class="menu-header_login">
+                            <div class="user">
+                                <p class="user-thumb"></p>
+                                <p class="user-name">ENS</p>
+                            </div>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그아웃</a>
+                                <a href="#" class="btn-secondary btn-join">마이페이지</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-home"><span class="blind">HOME</span></a>
+                        <button class="btn-close-menu">
+                            <i class="blind">메뉴닫기</i>
+                        </button>
+                    </div>
+                    <div class="menu-body">
+                        <ul class="nav-group">
+                            <li class="nav-item"><a href="#">제품 리뷰</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- 자사 제품</a></li>
+                                        <li><a href="#">- 수입 제품</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">설치 시뮬레이션</a></li>
+                            <li class="nav-item"><a href="#">회사 소개</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- About Us</a></li>
+                                        <li><a href="#">- Business Area</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">공지사항</a></li>
+                            <li class="nav-item"><a href="#">서비스 안내</a></li>
+                            <li class="nav-item"><a href="#">1:1 문의</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="copyright">Copyright ⓒ EnE System Co.,Ltd. All Rights Reserved.</p>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="main-title">
+                    Nature Friendly <i>Company</i>
+                </div>
+                <div class="main-btns">
+                    <a href="#" class="main-btn--review">
+                        <i class="icon"></i>
+                        <strong>제품 리뷰</strong>
+                    </a>
+                    <a href="#" class="main-btn--simulate">
+                        <i class="icon"></i>
+                        <strong>설치 시뮬레이션</strong>
+                    </a>
+                    <a href="#" class="main-btn--company">
+                        <i class="icon"></i>
+                        <strong>회사 소개</strong>
+                    </a>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <p class="footer-logo">
+                    <img src="static/images/logo_footer.png" alt="sns system">
+                </p>
+                <address>130-26, Hyeonggok-gil, Cheongbuk-eup, Pyeongtaek-si, <br>
+                    Gyeonggi-do, Republic of Korea</address>
+                <ul class="contact">
+                    <li>TEL. <a href="tel:031-234-4001">031-234-4001</a></li>
+                    <li>FAX. 031-234-4222</li>
+                </ul>
+
+                <p class="copyright">Copyright ⓒ EnE System Co.,Ltd. All Rights Reserved.</p>
+            </footer>
+        </div>
+
+        <script src="static/js/jquery-1.12.1.min.js"></script>
+        <script src="static/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="static/js/front.js"></script>
+    </body>
+
+</html>
