@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keyword" content="ENE System">
+        <meta name="description" content="ENE System">
+        <meta name="author" content="ENE System">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" />
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="shortcut icon" type="image/jpg" href="static/images/fav.png" />
+        <title>ENE system</title>
+    </head>
+
+    <body>
+
+        <div class="subpage">
+            <header class="main-header">
+                <h2 class="page-title">회원가입</h2>
+
+                <a href="#" class="btn-prev"><span class="blind">이전페이지</span></a>
+                <button type="button" class="btn-menu">
+                    <i class="blind">전체메뉴</i>
+                </button>
+                <div class="menu-container">
+                    <div class="menu-header">
+                        <!-- 
+                        @@ 로그인 전
+                        <div class="menu-header_login">
+                            <p>로그인하여  <br>더 많은 정보를 확인하세요.</p>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그인</a>
+                                <a href="#" class="btn-secondary btn-join">회원가입</a>
+                            </div>
+                        </div> 
+                         -->
+                        <!--
+                            @@ 로그인 후
+                        -->
+
+                        <div class="menu-header_login">
+                            <div class="user">
+                                <p class="user-thumb"></p>
+                                <p class="user-name">ENS</p>
+                            </div>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그아웃</a>
+                                <a href="#" class="btn-secondary btn-join">마이페이지</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-home"><span class="blind">HOME</span></a>
+                        <button class="btn-close-menu">
+                            <i class="blind">메뉴닫기</i>
+                        </button>
+                    </div>
+                    <div class="menu-body">
+                        <ul class="nav-group">
+                            <li class="nav-item"><a href="#">제품 리뷰</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- 자사 제품</a></li>
+                                        <li><a href="#">- 수입 제품</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">설치 시뮬레이션</a></li>
+                            <li class="nav-item"><a href="#">회사 소개</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- About Us</a></li>
+                                        <li><a href="#">- Business Area</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">공지사항</a></li>
+                            <li class="nav-item"><a href="#">서비스 안내</a></li>
+                            <li class="nav-item"><a href="#">1:1 문의</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="copyright">Copyright ⓒ EnE System Co.,Ltd. All Rights Reserved.</p>
+                </div>
+            </header>
+
+            <div class="content content-join">
+
+                <ul class="tab-list">
+                    <li class="selected"><a href="#">일반 회원가입</a></li>
+                    <li><a href="#">간편 회원가입</a></li>
+                </ul>
+                <div class="content-inner">
+                    <form action="">
+                        <div class="input-box input-btn-idcheck">
+                            <input type="text" placeholder="ID" title="아이디">
+                            <button class="btn-check">중복확인</button>
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="비밀번호" title="비밀번호">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="비밀번호 확인" title="비밀번호 확인">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="이름" title="이름">
+                        </div>
+                        <div class="input-box">
+                            <input type="email" placeholder="이메일" title="이메일">
+                        </div>
+
+                        <div class="policy">
+                            <a href="#" class="txt-arr-bl"><span>이용 약관</span></a>
+                            <a href="#" class="txt-arr-bl"><span>개인정보취급방침</span></a>
+                        </div>
+                        <div class="check-agree">
+                            <label class="check-container">본인은 만 14세 이상으로 ENS 이용약관과 개인정보수집 및 이용안내를 확인하였으며 이에 동의합니다.
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="btn-area">
+                            <a href="#" class="btn-green btn-confirm">약관에 동의하고 가입하기 (필수)</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="bottom-nav">
+                <a href="#" class="btn-home"><span><i class="blind">home</i></span></a>
+                <a href="#" class="btn-simulate on"><span><i class="blind">home</i></span></a>
+                <a href="#" class="btn-mypage"><span><i class="blind">mypage</i></span></a>
+            </nav>
+        </div>
+
+
+        <!--modal 기본정보 수정-->
+        <div class="modal" style="display: block;">
+            <div class="modal-container modal-agreement">
+                <h3 class="title02 title02--policy">Privacy Policy And User Agreement</h3>
+                <div class="agreement-text agreement-text--policy ">
+                    <p class="txt mt-0">EnE System Co.,Ltd. (hereinafter referred to a ‘Company’) of a corporation
+                        places
+                        importance on the users' personal information and complies with the Act on Promotion of
+                        Information and Communications Network Utilization and Information Protection and the Personal
+                        Information Protection Act. The company will inform you about the use of the personal
+                        information provided by the users through the privacy policy and what measures are taken to
+                        protect the users' personal information. The company will notify the revision of the personal
+                        information handling policy through the website notice (or individual notice).</p>
+                    <ul>
+                        <li>
+                            <p class="tit1 mt-40">01. Personal Information Items Collected</p>
+                            <p class="txt">The company collects the following personal information for the purpose of
+                                providing services such as e-payment agency and payment reserve (hereinafter referred to
+                                as 'service') application, consultation, and enquiries.</p>
+                            <ul>
+                                <li>① Personal information collection items
+                                    <ul>
+                                        <li>(1) Mandatory items
+                                            <ul>
+                                                <li>&middot; Personal information : Name (Name of CEO and person
+                                                    in charge in case of merchant), date of birth, mobile phone number
+                                                    (Mobile number of CEO and person in charge in case of merchant),
+                                                    phone number (company number not applicable), email address (Email
+                                                    address of CEO and person in charge in case of merchant), gender
+                                                </li>
+                                                <li>&middot; Additional information may be automatically or
+                                                    manually generated and collected during the 'service' processing or
+                                                    'service' processing other than the personal information items
+                                                    specified above (IP/MAC Address, cookies, e-mail, service accessed
+                                                    dates, service usage records, bad or abnormal usage records, payment
+                                                    records).</li>
+                                                <li>&middot; Miscellaneous : The ‘company’ can collect additional
+                                                    information on the payment method, such as the card transaction
+                                                    name, credit card number (partial), bank name, account number,
+                                                    carrier name and gift certificate ID/PW required for payment or
+                                                    refund related to service use.</li>
+                                            </ul>
+                                        </li>
+                                        <li>(2) Selected Items
+                                            <ul>
+                                                <li>&middot; Information provided by the client or information contained
+                                                    in the
+                                                    contract document other than required items</li>
+                                                <li>&middot; Address, fax number, etc.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">02. Purpose of collecting and using personal information</p>
+                            <p class="txt">The ‘company’ utilizes the collected personal information for the following
+                                purposes:</p>
+                            <ul>
+                                <li>① Identifying and verifying the person's real name for the purpose of establishing,
+                                    maintaining, and terminating the service contract; managing various members, sending
+                                    contracts, etc.</li>
+                                <li>② Identifying, certifying, real-name verification and various notices/notifications
+                                    during the service delivery process</li>
+                                <li>③ Prevention of fraudulent and unauthorized use</li>
+                                <li>④ Confirmation of consent or withdrawal required for service provision and related
+                                    business handling</li>
+                                <li>⑤ Identifying frequency of use and providing services according to demographic
+                                    characteristics and CRM</li>
+                                <li>⑥ Register store business information for each payment method for service provision
+                                </li>
+                                <li>⑦ For service provision (approval transaction, etc.) and related business processing
+                                    (civil complaints, personal information management status check), the payment method
+                                    issuer of the user who enters into the contract with the user regarding the payment
+                                    method</li>
+                                <li>(e.g. credit card company in question) shall send the payment information of the
+                                    user, personal information storage details, etc. (See below details about the issuer
+                                    of the payment method)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1  mt-40">03. The retention and usage period of personal information</p>
+                            <p class="txt">The personal information of the users shall be destroyed without delay when
+                                the purpose of collecting and using personal information is achieved in principle.
+                                However, the information for each of the following neck shall be retained for the period
+                                specified for the following reasons</p>
+                            <ul>
+                                <li>① Retention of information based on the company's internal policy
+                                    <ul>
+                                        <li>(1) Retention items: Service call collected items (company name, customer
+                                            name, phone number, e-mail, call content, etc.)</li>
+                                        <li>(2) Reasons for preservation: Use explanatory evidences in case of conflict
+                                        </li>
+                                        <li>(3) Preservation period: 6 months after completion of the consultation</li>
+                                    </ul>
+                                </li>
+                                <li>② Retention of information according to relevant laws
+                                    <p class="txt">In the event it is necessary to preserve the information according to
+                                        the provisions of the relevant statutes, such as the Commercial Act, the
+                                        Electronic Finance Transaction Act, etc., the company shall keep the information
+                                        for a certain period as prescribed by the relevant statutes. In this case, the
+                                        company uses the information stored for the purpose of storage only, and the
+                                        retention period is as follows</p>
+                                    <ul>
+                                        <li>(1) Records of withdrawal of contract or subscription, etc.
+                                            <ul>
+                                                <li>&middot; Preservation Period: Five Years</li>
+                                                <li>&middot; Grounds for Preservation: Law on Consumer Protection in
+                                                    Electronic Commerce, etc.</li>
+                                            </ul>
+                                        </li>
+                                        <li>(2) Records of payment and supply of goods, etc.
+                                            <ul>
+                                                <li>&middot; Preservation Period: Five Years</li>
+                                                <li>&middot; Grounds for Preservation: Law on Consumer Protection in
+                                                    Electronic Commerce, etc.</li>
+                                            </ul>
+                                        </li>
+                                        <li>(3) Records of complaints or dispute handling by consumers
+                                            <ul>
+                                                <li>&middot; Preservation Period: 3 Years</li>
+                                                <li>&middot; Grounds for Preservation: Law on Consumer Protection in
+                                                    Electronic Commerce, etc.</li>
+                                            </ul>
+                                        </li>
+                                        <li>(4) Records on the collection, processing and utilization of credit
+                                            information
+                                            <ul>
+                                                <li>&middot; Preservation Period: 3 Years</li>
+                                                <li>&middot; Grounds for Preservation: The Act on the Utilization and
+                                                    Protection of Credit Information</li>
+                                            </ul>
+                                        </li>
+                                        <li>(5) Records of identification
+                                            <ul>
+                                                <li>&middot; Preservation Period: 6 Months</li>
+                                                <li>&middot; Grounds for Preservation: Act on Promotion of Information
+                                                    and Communication Utilization and Information Protection</li>
+                                            </ul>
+                                        </li>
+                                        <li>(6) Records of visits
+                                            <ul>
+                                                <li>&middot; Preservation Period: 3 Months</li>
+                                                <li>&middot; Grounds for Preservation: Communications Secret Protection
+                                                    Act</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1  mt-40">04. The process and method of destruction of personal information</p>
+                            <ul>
+                                <li>① Destruction procedure : The information entered by the user for service
+                                    application, service consultation, inquiry, etc. is transferred to a separate DB
+                                    after the purpose is achieved (in case of paper, separate filing box) and is stored
+                                    and destroyed for a period of time according to internal policy and other reasons
+                                    for information protection under relevant statutes (see retention and service
+                                    period). Personal information transferred to a separate database is not used for
+                                    purposes other than holding purposes unless for legal reasons.</li>
+                                <li>② Method of destruction
+                                    <ul>
+                                        <li>(1) Personal information stored in electronic file format shall be deleted
+                                            using a technical method that cannot be played back.</li>
+                                        <li>(2) The personal information printed on the paper shall be shredded with a
+                                            shredder or destroyed through incineration.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1  mt-40">05. Personal information provision</p>
+                            <p class="txt">The company uses the user's personal information within the scope specified
+                                in [2. Purpose of Use of Personal Information Collected], and does not use the
+                                information beyond that scope without prior consent from the user, or does not provide
+                                the user's personal information to the outside world in principle. Exceptions are made
+                                in the following cases</p>
+                            <ul>
+                                <li>&middot; If the users have agreed in advance (if the users have agreed in advance,
+                                    the users voluntarily agree to provide their personal information to a third party
+                                    for the purpose of using the service).</li>
+                                <li>&middot; In case there is a request of the investigative agency according to the
+                                    provisions of the Act or according to the procedures and methods prescribed in the
+                                    Act for the purpose of investigation purposes. In the above cases, the ‘company’
+                                    shall notify the users who is provided the personal information, the purpose of use,
+                                    items of personal information provided, the retention and utilization period of
+                                    personal information shall be notified in advance and individual consent shall be
+                                    obtained in an explicit manner. In all such processes, the company does not collect
+                                    additional information against the users' will or share information outside the
+                                    scope of consent with third parties.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">06. Personal information handling consignment</p>
+                            <p class="txt">The ‘company’ will entrust the users' personal information to an external
+                                expert for service performance or notify the users of the contents of consignment work
+                                or trustee changes in advance. Further, we will clearly stipulate the service provider's
+                                personal information protection-related instructions, confidentiality of personal
+                                information, prohibition of third-party provision, liability in case of accident, and
+                                obligation to return or destroy personal information upon the end of the consignment
+                                period to protect the users' rights and interests. The ‘company’ does not entrust
+                                personal information collected from users to third parties. In case of future
+                                consignment, the user is notified in advance and if necessary, prior consent is
+                                obtained.</p>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">07. Rights of the users and legal representatives and their methods of
+                                exercise</p>
+                            <ul>
+                                <li>① The user may request access to his or her personal information and error
+                                    correction at all times, and the company shall take necessary actions without delay.
+                                    In addition, the company does not use the information until the error correction
+                                    request is made.
+                                    <ul>
+                                        <li>(1) The procedure for requesting information subject request procedure.
+                                            <ul>
+                                                <li>
+                                                <li>&middot; Preparation of information subject requirements (written,
+                                                    telephone, e-mail, FAX, etc.) → receipt of EnE System Co.,Ltd. →
+                                                    decision (reading, correction, deletion, processing suspension) →
+                                                    preparation of result notice → review and approval → notification to
+                                                    the information subject.</li>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>② In addition, if you contact the company's customer center (+82-31-234-4001) or visit the
+                            company, you can confirm that you are the user and apply for an access, change, or
+                            withdrawal of membership.</li>
+                        <li>③ We do not collect personal information of children under the age of 14 (the children under
+                            the age of 14). However, if personal information needs to be collected, the consent of the
+                            legal representative must be sought. The company may request minimal information, such as
+                            the name and contact number of the legal representative from the child, and the legal
+                            representative of the child may request access, correction or deletion of the child's
+                            personal information through written, telephone, e-mail or FAX. If such request is made, the
+                            company shall take necessary actions without delay.</li>
+                        <li>④ Access restrictions or refusal may be made for the following reasons.
+                            <ul>
+                                <li>(1) In cases where access is prohibited or restricted by law</li>
+                                <li>(2) In the case where there is a fear of harming another person's life and body, or
+                                    us who unfairly infringe on another person's property and other interests</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <li>
+                        <p class="tit1 mt-40">08. Measures to secure personal information security</p>
+                        <p class="txt">The company is taking the following steps to secure the stability of personal
+                            information.</p>
+                        <ul>
+                            <li>1) Management measures: Establishing and implementing an internal management plan,
+                                regular employee training, etc.</li>
+                            <li>2) Technical measures: management of access authority, installation of access control
+                                system, encryption of unique identification information, and installation of security
+                                program</li>
+                            <li>3) Physical actions: Access control of the computer room, data storage, etc.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="tit1 mt-40">09. Matters concerning the installation, operation, and refusal of the
+                            automatic collection of personal information</p>
+                        <p class="txt">The ‘company’ installs and operates 'cookies' that store and retrieve user
+                            information from time to time. Cookies are small text files that are sent to the user's
+                            browser by the server used to run the company's website and are stored on the user's
+                            computer hard disk. The company uses cookies, etc. for the following purposes</p>
+                        <ul>
+                            <li>① Purpose of use such as cookies</li>
+                            <li>(1) Target marketing and personalization services are provided by analyzing the
+                                frequency of access and time of visit of users to identify the users' tastes and
+                                interests, tracking their own experiences, and identifying the degree of participation
+                                in various events and the recall of visits.</li>
+                            <li>(2) The user has the option of installing cookies. Therefore, you can allow all cookies
+                                by setting options in your web browser, check every time cookies are saved, or refuse to
+                                save them.</li>
+                            <li>③ However, if the user refuses to install cookies, it may be difficult to provide the
+                                service.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="tit1 mt-40">10. Civil Service on Personal Information</p>
+                        <p class="txt">The company designates a person in charge of personal information management and
+                            a person in charge of personal information management as follows in order to protect users'
+                            personal information and handle complaints related to personal information.</p>
+                        <ul>
+                            <li>Personal Information Management Officer: Bryan Seol</li>
+                            <li>Department: Overseas Sales Department</li>
+                            <li>TEL: +82-31-234-4001</li>
+                            <li>E-Mail: Bryanseol@enesystem.com</li>
+                        </ul>
+                        <p class="txt">You can report all personal information protection related complaints that arise
+                            from using the company's service to the person in charge of personal information management
+                            or the department in charge. The company will quickly and fully respond to the users'
+                            reports.</p>
+                        <p class="txt">If you need to report or consult other personal information violations, please
+                            contact the following organization(s):</p>
+                        <ul>
+                            <li>① Personal Information Violation Committee:Call 118 / E-mail (privacy@kisa.or.kr) /
+                                Website ( <a href="http://privacy.kisa.or.kr"
+                                    target="_blank">http://privacy.kisa.or.kr</a> )</li>
+                            <li>② Information Protection Mark Certification Committee : Call 02-580-0533~4 / Website (
+                                <a href="http://www.eprivacy.or.kr" target="_blank">http://www.eprivacy.or.kr</a> )</li>
+                            <li>③ Cyber Crime Investigation Team of the Supreme Public Prosecutor's Office : Call 1301 /
+                                Website ( <a href="http://www.spo.go.kr" target="_blank">http://www.spo.go.kr</a> )</li>
+                            <li>④ Police Cyber Security Agency : Call 182 / Website ( <a
+                                    href="http://cyberbureau.police.go.kr"
+                                    target="_blank">http://cyberbureau.police.go.kr</a> )</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p class="tit1 mt-40">11. Duty of Notice</p>
+                        <p class="txt">If there are any additions, deletions or modifications to the current privacy
+                            policy, we will notify you through the notice on the website at least seven days before the
+                            revision.</p>
+                        <p class="txt">Additional Clause</p>
+                        <p class="txt">This Privacy Policy is effective <br />from May 1, 2022.</p>
+                    </li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn-close-modal"><span class="blind">닫기</span></a>
+            </div>
+        </div>
+        <!--//modal-->
+
+
+        <script src="static/js/jquery-1.12.1.min.js"></script>
+        <script src="static/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="static/js/front.js"></script>
+    </body>
+
+</html>

@@ -4,7 +4,6 @@
     text-align: center;
     display: block;
     margin: auto;
-    //padding: 15px 20px;
     border-radius: 30px;
     font-size: 1.8rem;
     font-weight: 700;
@@ -17,23 +16,17 @@
          box-shadow: 0 4px 6px rgba($color: #000000, $alpha: 0.16);
     }
 }
-
 .btn-dgreen {
-
     background: #0B8393;
     text-align: center;
     display: block;
     margin: auto;
-    //padding: 15px 20px;
     border-radius: 30px;
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: -0.04em;
     color: #fff;
 }
-
-
-
 .btn-secondary {
     border: 1px solid #fff;
     background: transparent;
@@ -155,6 +148,7 @@
 
 .subpage {
     background: url('../images/bg_menu_top.png') no-repeat center top / contain;
+    background-repeat: repeat-x;
     height: calc(100% - 67px);
     margin-bottom: 120px;
 
@@ -772,6 +766,12 @@ body.wave {
     font-weight: 700;
     letter-spacing: -0.05em;
     color: #314057;
+    word-break: keep-all;
+
+    &--policy {
+         font-size: 1.8rem;
+         padding-top: 10px;
+    }
 }
 
 .title03{
@@ -1011,7 +1011,7 @@ body.wave {
     padding: 0 24px;
 
     .modal-container {
-        width: calc(100% - 48px);
+        
         border-radius: 20px;
         padding: 40px 20px 35px 20px;
         background: #fff;
@@ -1021,7 +1021,8 @@ body.wave {
         font-weight: 400;
         line-height: 1.55;
         color: #314057;
-        max-width: 315px;
+        min-width: 315px;
+        max-width: calc(100% - 48px);
 
         &.modal-wave {
             background: #fff url('../images/modal_bg.png') repeat-x top center / auto 144px;
@@ -1121,7 +1122,6 @@ body.wave {
     .page-num_current {
         font-weight: 700;
         color: #326D8F;
-        ;
     }
 
     .page-num_total {

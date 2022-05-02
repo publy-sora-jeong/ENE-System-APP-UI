@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keyword" content="ENE System">
+        <meta name="description" content="ENE System">
+        <meta name="author" content="ENE System">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" />
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="shortcut icon" type="image/jpg" href="static/images/fav.png" />
+        <title>ENE system</title>
+    </head>
+
+    <body>
+
+        <div class="subpage">
+            <header class="main-header">
+                <h2 class="page-title">회원가입</h2>
+
+                <a href="#" class="btn-prev"><span class="blind">이전페이지</span></a>
+                <button type="button" class="btn-menu">
+                    <i class="blind">전체메뉴</i>
+                </button>
+                <div class="menu-container">
+                    <div class="menu-header">
+                        <!-- 
+                        @@ 로그인 전
+                        <div class="menu-header_login">
+                            <p>로그인하여  <br>더 많은 정보를 확인하세요.</p>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그인</a>
+                                <a href="#" class="btn-secondary btn-join">회원가입</a>
+                            </div>
+                        </div> 
+                         -->
+                        <!--
+                            @@ 로그인 후
+                        -->
+
+                        <div class="menu-header_login">
+                            <div class="user">
+                                <p class="user-thumb"></p>
+                                <p class="user-name">ENS</p>
+                            </div>
+                            <div class="menu-header_login-btns">
+                                <a href="#" class="btn-green btn-login">로그아웃</a>
+                                <a href="#" class="btn-secondary btn-join">마이페이지</a>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-home"><span class="blind">HOME</span></a>
+                        <button class="btn-close-menu">
+                            <i class="blind">메뉴닫기</i>
+                        </button>
+                    </div>
+                    <div class="menu-body">
+                        <ul class="nav-group">
+                            <li class="nav-item"><a href="#">제품 리뷰</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- 자사 제품</a></li>
+                                        <li><a href="#">- 수입 제품</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">설치 시뮬레이션</a></li>
+                            <li class="nav-item"><a href="#">회사 소개</a>
+                                <div class="sub-nav-group">
+                                    <ul>
+                                        <li><a href="#">- About Us</a></li>
+                                        <li><a href="#">- Business Area</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="#">공지사항</a></li>
+                            <li class="nav-item"><a href="#">서비스 안내</a></li>
+                            <li class="nav-item"><a href="#">1:1 문의</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="copyright">Copyright ⓒ EnE System Co.,Ltd. All Rights Reserved.</p>
+                </div>
+            </header>
+
+            <div class="content content-join">
+
+                <ul class="tab-list">
+                    <li class="selected"><a href="#">일반 회원가입</a></li>
+                    <li><a href="#">간편 회원가입</a></li>
+                </ul>
+                <div class="content-inner">
+                    <form action="">
+                        <div class="input-box input-btn-idcheck">
+                            <input type="text" placeholder="ID" title="아이디">
+                            <button class="btn-check">중복확인</button>
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="비밀번호" title="비밀번호">
+                        </div>
+                        <div class="input-box">
+                            <input type="password" placeholder="비밀번호 확인" title="비밀번호 확인">
+                        </div>
+                        <div class="input-box">
+                            <input type="text" placeholder="이름" title="이름">
+                        </div>
+                        <div class="input-box">
+                            <input type="email" placeholder="이메일" title="이메일">
+                        </div>
+
+                        <div class="policy">
+                            <a href="#" class="txt-arr-bl"><span>이용 약관</span></a>
+                            <a href="#" class="txt-arr-bl"><span>개인정보취급방침</span></a>
+                        </div>
+                        <div class="check-agree">
+                            <label class="check-container">본인은 만 14세 이상으로 ENS 이용약관과 개인정보수집 및 이용안내를 확인하였으며 이에 동의합니다.
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+
+                        <div class="btn-area">
+                            <a href="#" class="btn-green btn-confirm">약관에 동의하고 가입하기 (필수)</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <nav class="bottom-nav">
+                <a href="#" class="btn-home"><span><i class="blind">home</i></span></a>
+                <a href="#" class="btn-simulate on"><span><i class="blind">home</i></span></a>
+                <a href="#" class="btn-mypage"><span><i class="blind">mypage</i></span></a>
+            </nav>
+        </div>
+
+
+        <!--modal 기본정보 수정-->
+        <div class="modal" style="display: block;">
+            <div class="modal-container modal-agreement">
+                <h3 class="title02 title02--policy">Terms and Conditions for Electronic Financial Transactions </h3>
+                <div class="agreement-text agreement-text--policy mt-10 ">
+                    <ul >
+                        <li>
+                            <p class="tit1 mt-0">Article 1 (Objects)</p>
+                            <p class="txt">The purpose of these terms and conditions is to set basic matters concerning
+                                electronic financial transactions between the company and the users in using e-payment
+                                payment agency service and payment reservation service provided by EnE System Co.,Ltd.
+                                (hereinafter referred to as the 'Company').</p>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 2 (Definition of terms)</p>
+                            <p class="txt">The terms set forth in this Agreement are defined as follows</p>
+                            <ul>
+                                <li>① 'Electronic Financial Transactions' refers to transactions in which the company provides e-payment agency services through electronic devices, and the users use them in an automated manner, without face-to-face or communicating with the employees of the company.</li>
+                                <li>② 'E-Payment Payment Acting Service' refers to the service that sends or receives payment information in the purchase of goods or the use of services electronically or acts on behalf of or mediating the settlement of the consideration.</li>
+                                <li>③ 'User' refers to a person who agrees to these terms and conditions and uses the electronic financial transaction service provided by the company.</li>
+                                <li>④ ‘Access Medium’ refers to the means or information used to direct transactions in electronic financial transactions or secure the veracity and accuracy of users and transactions including electronic cards and equivalent electronic information (including credit card numbers), certificated under the Electronic Signature Act, user number registered in the company, the biometric information of the user, passwords required to use the above means or information, etc. which is provided under Article 2 paragraph 10 of the Electronic Finance Transaction Act.</li>
+                                <li>⑤ 'Transaction order' refers to the user ordering the company to handle electronic financial transactions in accordance with the electronic financial transaction contract concluded under this Agreement.</li>
+                                <li>⑥ 'Error' refers to the case in which electronic financial transactions have not been carried out in accordance with electronic financial transaction contract or user transaction order without the user's intention or negligence.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 3 (Specification and modification of the terms and conditions)</p>
+                            <ul>
+                                <li>① The company publishes these terms and conditions before the users use the electronic financial transaction service so that the users can check the important details of these terms and conditions.</li>
+                                <li>② The company shall distribute to the users a copy of this Agreement by sending electronic documents at the request of the users.</li>
+                                <li>③ When the company changes the terms and conditions, it notifies the users by posting the terms and conditions on the company's website and on the initialization face of the electronic financial transaction service provided by the company before the effective date.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 4 (Type of e-payment payment agency service)</p>
+                            <p class="txt">Electronic payment agency services provided by the company are classified as follows, depending on the payment method.</p>
+                            <ul>
+                                <li>① Credit card: Payment by credit card issued at home and abroad (KB, BC, NH, Samsung, Lotte, Visa, Mater, JCB, CUP, etc.)</li>
+                                <li>② Real-time Account transfer: Payment by transferring money directly from the user's bank account</li>
+                                <li>③ Virtual account: The user deposits directly into a virtual account issued by the seller.</li>
+                                <li>④ Simple payment: The user pays through Kakao Pay, Samsung Pay, Alipay, and WeChat Pay based on the charging method that’s wallet based.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 5 (Time of Use)</p>
+                            <ul>
+                                <li>① In principle, the company provides electronic financial transaction services to the users 365 days a year, 24 hours a day. However, the issuer of financial institutions and other payment methods can decide differently.</li>
+                                <li>② In the event that service interruption is inevitable due to repair of information and communication facilities, inspection or other technical needs, or the circumstances of the issuer of financial institutions and other payment means, the company may suspend the service after posting the service interruption through electronic means that can be posted three days before the service interruption. However, if it is inevitable for the system to fail, urgent program repair, and external factors, the service can be discontinued without pre-posting.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 6 (Selecting, using and managing access medium)</p>
+                            <ul>
+                                <li>① When providing electronic financial transaction services, the company can select an access medium to check the identity, authority, and transaction order of the user.</li>
+                                <li>② The user shall not lend or delegate access media to a third party or provide it for transfer or collateral purposes.</li>
+                                <li>③ The users shall not leak, expose, or leave their access media to a third party and shall take sufficient care to prevent the theft, forgery or tampering of the access medium.</li>
+                                <li>④ The company shall be responsible for compensating the user for damages caused by the use of the access medium by a third party when the user receives notification of loss or theft of the access medium from the user.</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <p class="tit1 mt-40">Article 7 (Confirmation of transaction details)</p>
+                            <ul>
+                                <li>① The company allows users to check their transaction details (including the user's 'error correction requirements and handling results') through the electronic method agreed with the user in advance. In case of a request by the user, the company sends a written message about the transaction contents by sending a letter within two weeks from the date of receipt of the request.</li>
+                                <li>② Of the transaction details provided to users by the company, information indicating the name or number of the transaction account, type and amount of the transaction, information indicating the other party, transaction date, type of electronic device, and access records of electronic devices related to the electronic financial transaction are recorded for five years, the transaction approval of small electronic financial transactions, transaction amount of less than 10,000 won per transaction amount per transaction, transaction approval when using electronic payment method, the information concerning the users' error correction requirements and the result of processing is subject to a one-year period, but excluded from the transaction details provided by the company regarding the merchant's fees received in return for providing e-payment payment agency services.</li>
+                                <li>③ If the user requests a written approval as specified in paragraph 1, he/she can request it at the following address and phone number.
+                                    <ul>
+                                        <li>Address: 130-26, Hyeongok-gil, Cheongbuk-myeon, Pyeongtaek-si, Gyeonggi-do, South Korea</li>
+                                        <li>E-Mail Address: enesystem@enesystem.com</li>
+                                        <li>Phone Number: +82-31-234-4001</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                         <li>
+                            <p class="tit1 mt-40">Article 8 (correcting errors, etc.)</p>
+                            <ul>
+                                <li>① The user may request the company to correct an error when he or she finds out there is an error exists in using the electronic financial transaction service.</li>
+                                <li>② When the company receives a correction request for errors pursuant to the provisions of paragraph 1 above, it shall investigate and process the request immediately and inform the user of the results within two weeks from the date of receipt of the correction request.</li>
+                                <li>③ If the company finds out that there is an error in electronic financial transactions, it will investigate them immediately, process them, and inform the user of the cause of the error and the result of the transaction within two weeks from the date of knowledge of the error.</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <p class="tit1 mt-40">Article 9 (Company Responsibilities)</p>
+                            <ul>
+                                <li>① The company shall be responsible for indemnifying the user for damages if any of the following accidents occur to the users</li>
+                                <li>(1) Accidents arising from forgery or alteration of access media</li>
+                                <li>(2) Accidents occurring during electronic transmission or processing of contract or transaction orders</li>
+                                <li>(3) Accidents arising from the use of electronic devices for electronic financial transactions or access media obtained through false or other fraudulent means by breaking into the information communication network pursuant to Article 2 para 1 sub para 1 of the Act on Promotion of Information and Communication Network Utilization and Information Protection.</li>
+                                <li>② Notwithstanding the provisions of paragraph 1, if the company falls under any of the following subparagraphs, the users may assume all or part of their responsibilities.</li>
+                                <li>(1) In the event of a user's intentional or grave negligence in the occurrence of an accident, the user can assume all or part of his or her responsibility as provided in Article 8 of the Enforcement Decree of the Electronic Financial Transaction Act.</li>
+                                <li>(2) In the event that damages occur to users of a corporation (excluding small businesses under Article 2 of the Framework Act on Small Businesses) and the company has fulfilled its reasonably required duty of caution, such as establishing and fully complying with security procedures in order to prevent accidents</li>
+                                <li>③ Intentional or material negligence of users pursuant to Article 2 sub para 1 shall be limited to those stated in the terms and conditions of electronic financial transactions (hereinafter referred to as "the terms and conditions") in the relevant statutes.</li>
+                            </ul>
+                        </li>
+                         <li>
+                            <p class="tit1 mt-40">Article 10 (Electronic Payment Transaction Agreement Effect)</p>
+                            <ul>
+                                <li>① The company shall substitute the payment procedure when the user's transaction order is related to electronic payment transactions, and send the transaction order concerning electronic payment transactions so that payment can be made.</li>
+                                <li>② The company shall return the funds received to the users when the payment transaction has not been made according to the transaction order regarding the users' e-payment transaction.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 11 (Retraction of the Transaction Order)</p>
+                            <ul>
+                                <li>① In the case of transaction orders related to electronic payment transactions, the user can withdraw the transaction order until the payment becomes effective.</li>
+                                <li>② Effective date of payment in the preceding paragraph means
+                                    <ul>
+                                        <li>· in the case of electronic fund transfers, when the deposit record is completed in the head of the account of the financial institution where the recipient's account is opened, and</li>
+                                        <li>· when the amount of the transaction order is paid by other electronic payment means, the electronic device of the financial institution where the recipient's account is opened.</li>
+                                    </ul>
+                                </li>                                
+                                <li>③ In the event that payment takes effect, the user can receive payment back in accordance with the relevant laws, such as the Consumer Protection Act in e-commerce, and the method of withdrawal of the subscription.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 12 (Creating and preserving electronic payment agency service use records)</p>
+                            <ul>
+                                <li>① The company generates and preserves records that enable users to track, search, or check or correct the contents of an electronic financial transaction in the event of an error.</li>
+                                <li>② The types of records and methods of preservation required by the company to be preserved in accordance with the provisions of paragraph 1 above shall be as specified in paragraph 2 of Article 7 above.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 13 (Prohibition of the provision of electronic financial transaction information)</p>
+                            <p class="txt">In providing electronic financial transaction services, the company shall not provide, divulge, or use information or data about the acquired users' personal information, their accounts, access media, or their performance to third parties without obtaining consent from the users.</p>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 14 (Processing and coordinating disputes)</p>
+                            <ul>
+                                <li>① The user may ask the following Dispute Handling Officers and Managers to handle disputes, such as raising complaints or filing for damages regarding the use of e-Financial transaction services
+                                    <ul>
+                                        <li>- Staff: Overseas Sales Department / Bryan Seol</li>
+                                        <li>- Contact: TEL) +82-31-234-4001, FAX) +82-31-234-4222</li>
+                                        <li>- E-Mail: bryanseol@enesystem.com</li>
+                                    </ul>
+                                </li>
+                                <li>② In the event that a user requests a dispute settlement with the company, the company will notify the user of the investigation or handling result within 15 days.</li>
+                                <li>③ Users can apply to the Financial Dispute Mediation Committee of the Financial Supervisory Service under Article 51 of the Act on the Establishment of the Financial Services Commission or the Korea Consumer Agency under the provisions of Article 31 of the Consumer Electronics Fund for the adjustment of disputes concerning the use of the company's electronic financial transaction services.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 15 (Company's obligation to secure stability)</p>
+                            <p class="txt">To ensure the safety and reliability of electronic financial transactions, the company complies with the criteria set by the Financial Services Commission concerning the information technology sector and electronic financial services, such as personnel, facilities and electronic devices, for electronic transmission or processing by type of electronic financial transactions.</p>
+                        </li>
+                        <li>
+                            <p class="tit1 mt-40">Article 16 (Excluding Terms and Conditions and Regulations and Jurisdiction)</p>
+                            <ul>
+                                <li>① Items not stipulated in this Agreement shall follow the provisions of the Act on Electronic Financial Transactions, the Act on Consumer Protection in Electronic Commerce, the Act on Telecommunications Sales, the Act on Credit Finance and other statutes.</li>
+                                <li>② The jurisdiction concerning disputes arising between the company and the users shall follow the provisions of the Civil Procedure Act.</li>
+                            </ul>
+                            <p class="txt mt-20">These Terms and Conditions shall apply as of 1 January 2022.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <a href="#" class="btn-close-modal"><span class="blind">닫기</span></a>
+            </div>
+        </div>
+        <!--//modal-->
+
+
+        <script src="static/js/jquery-1.12.1.min.js"></script>
+        <script src="static/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="static/js/front.js"></script>
+    </body>
+
+</html>

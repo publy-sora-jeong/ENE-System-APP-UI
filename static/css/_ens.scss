@@ -998,6 +998,28 @@
         text-align: left;
         overflow: auto;
         height: calc(100vh - 260px);
+        word-break: keep-all;
+
+        &--policy {
+            letter-spacing: -0.04em;
+
+            .tit1 {
+                font-size: 1.6rem;
+            }
+            
+
+            .txt{
+                 letter-spacing: -0.04em;
+            }
+             ul {
+                  li {
+                       margin-top: 10px;
+                       color:#707070
+                  }
+             }
+        }
+
+        
     }
 
     .tit1 {

@@ -4,6 +4,8 @@
     const openMenu = document.querySelector('.btn-menu');
     const closenMenu = document.querySelector('.btn-close-menu');
     const menuContainer = document.querySelector('.menu-container');
+    const closeModal = document.querySelector('.btn-close-modal');
+    const modalContainer = document.querySelector('.modal')
     let vh;
     
     openMenu.addEventListener('click', function (e) {
@@ -13,6 +15,11 @@
     closenMenu.addEventListener('click', function (e) {
         e.preventDefault();
         menuContainer.style.display = "none";
+    })
+
+     closeModal.addEventListener('click', function (e) {
+        e.preventDefault();
+        modalContainer.style.display = "none";
     })
 
     
