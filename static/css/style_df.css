@@ -74,12 +74,12 @@
 /* COLOR SET*/
 .col-blue {
   color: #1A5DAC;
-  font-style: oblique;
+  font-style : oblique;
 }
 
 .col-red {
   color: #e22f26;
-  font-style: oblique;
+  font-style : oblique;
 }
 
 .col-black {
@@ -1953,38 +1953,6 @@ body.wave .content .bg-wavebox {
   background-position-x: 30px;
 }
 
-.btn-login-sns--google {
-  background: transparent;
-  border: 1px solid #C7C7C7;
-  color: #797979;
-  font-weight: 400;
-}
-
-.btn-login-sns--google > strong {
-  font-weight: 900;
-}
-
-.btn-login-sns--google::before {
-  background-image: url("../images/ic_sns_google.svg");
-  border-right-color: transparent;
-}
-
-.btn-login-sns--facebook {
-  background: transparent;
-  border: 1px solid #C7C7C7;
-  color: #797979;
-  font-weight: 400;
-}
-
-.btn-login-sns--facebook > strong {
-  font-weight: 900;
-}
-
-.btn-login-sns--facebook::before {
-  background-image: url("../images/ic_sns_facebook.svg");
-  border-right-color: transparent;
-}
-
 .content-view {
   padding-left: 24px;
   padding-right: 24px;
@@ -2478,7 +2446,6 @@ body.wave .content .bg-wavebox {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
 }
 
 .prd-list .prd-list-item_title {
@@ -2489,12 +2456,14 @@ body.wave .content .bg-wavebox {
   letter-spacing: -0.05em;
 }
 
-.prd-list .prd-list-item_title ._en {
-  display: block;
-}
-
 .prd-list.imported .prd-list-item_title {
-  min-height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 42px;
+  height: 42px;
   word-break: keep-all;
 }
 
@@ -2889,4 +2858,3 @@ body.wave .content .bg-wavebox {
 .bizdata .item .text .title04 {
   padding-bottom: 5px;
 }
-/*# sourceMappingURL=style.css.map */
